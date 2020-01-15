@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task1</name>
+    </assembly>
+    <members>
+        <member name="T:Task1.StringHelper">
+            <summary>
+            The StringHelper class makes it easier to work with strings.
+            </summary>
+        </member>
+        <member name="M:Task1.StringHelper.GetVowelCount(System.String)">
+            <summary>
+            Method for counting the number of vowel letters in a string.
+            </summary>
+            <param name="str">Input string.</param>
+            <returns>The method returns the number of vowel letters in a string.</returns>
+        </member>
+    </members>
+</doc>
