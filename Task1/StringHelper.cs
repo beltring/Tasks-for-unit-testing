@@ -12,6 +12,14 @@ namespace Task1
         /// </summary>
         /// <param name="str">Input string.</param>
         /// <returns>The method returns the number of vowel letters in a string.</returns>
+        /// <exception cref="ArgumentNullException">
+        /// <paramref name="str"/>
+        /// String cannot be null.
+        /// </exception>
+        /// <exception cref="ArgumentException">
+        /// <paramref name="str"/>
+        /// String cannot be empty.
+        /// </exception>
         public static int GetVowelCount(string str)
         {
             if (str == null)

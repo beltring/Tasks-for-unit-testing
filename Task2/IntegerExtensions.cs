@@ -2,8 +2,17 @@
 
 namespace Task2
 {
+    /// <summary>
+    /// This class extends the functionality of the Integer class.
+    /// </summary>
     public static class IntegerExtensions
     {
+        /// <summary>
+        /// This method implements the algorithm find the GCD of two numbers.
+        /// </summary>
+        /// <param name="a">The first input number.</param>
+        /// <param name="b">The second input number.</param>
+        /// <returns>GCD of two integers.</returns>
         public static int GetGcd(int a, int b)
         {
             if (a == 0 && b == 0)
@@ -14,11 +23,6 @@ namespace Task2
             if (a == 0)
             {
                 return Math.Abs(b);
-            }
-
-            if (b == 0)
-            {
-                return Math.Abs(a);
             }
 
             while (b != 0)
