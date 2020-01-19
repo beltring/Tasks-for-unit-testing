@@ -4,5 +4,18 @@
         <name>Task2</name>
     </assembly>
     <members>
+        <member name="T:Task2.IntegerExtensions">
+            <summary>
+            This class extends the functionality of the Integer class.
+            </summary>
+        </member>
+        <member name="M:Task2.IntegerExtensions.GetGcd(System.Int32,System.Int32)">
+            <summary>
+            This method implements the algorithm find the GCD of two numbers.
+            </summary>
+            <param name="a">The first input number.</param>
+            <param name="b">The second input number.</param>
+            <returns>GCD of two integers.</returns>
+        </member>
     </members>
 </doc>

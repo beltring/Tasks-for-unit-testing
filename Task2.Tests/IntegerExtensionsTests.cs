@@ -45,5 +45,10 @@ namespace Task2.Tests
         public void GcdTest_WithTwoZeroNumbers_ThrowArgumentException() =>
             Assert.Throws<ArgumentException>(() => GetGcd(0, 0),
                 "Two numbers cannot be 0 at the same time.");
+
+        [Test, Order(3)]
+        public void GcdTest_WithZeroNumberAndMinIntegerNumbers_ThrowArgumentOutOfRangeException() =>
+            Assert.Throws<ArgumentOutOfRangeException>(() => GetGcd(0, int.MinValue),
+                "Invalid value, the value is greater than the allowed value.");
     }
 }

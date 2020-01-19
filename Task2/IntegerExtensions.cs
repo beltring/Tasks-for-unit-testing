@@ -20,6 +20,11 @@ namespace Task2
                 throw new ArgumentException("Two numbers cannot be 0 at the same time.");
             }
 
+            if (a == 0 && b == int.MinValue)
+            {
+                throw new ArgumentOutOfRangeException(string.Empty, "Invalid value, the value is greater than the allowed value.");
+            }
+
             if (a == 0)
             {
                 return Math.Abs(b);

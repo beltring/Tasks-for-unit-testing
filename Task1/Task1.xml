@@ -15,6 +15,14 @@
             </summary>
             <param name="str">Input string.</param>
             <returns>The method returns the number of vowel letters in a string.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="str"/>
+            String cannot be null.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="str"/>
+            String cannot be empty.
+            </exception>
         </member>
     </members>
 </doc>
